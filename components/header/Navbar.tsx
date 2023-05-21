@@ -49,13 +49,6 @@ function Navbar({ items, searchbar }: {
           <Searchbar searchbar={searchbar} />
           <a
             class="btn btn-square btn-ghost"
-            href="/login"
-            aria-label="Log in"
-          >
-            <Icon id="User" width={20} height={20} strokeWidth={0.4} />
-          </a>
-          <a
-            class="btn btn-square btn-ghost"
             href="/wishlist"
             aria-label="Wishlist"
           >
@@ -65,6 +58,13 @@ function Navbar({ items, searchbar }: {
               strokeWidth={2}
               fill="none"
             />
+          </a>
+          <a
+            class="btn btn-square btn-ghost"
+            href="/login"
+            aria-label="Log in"
+          >
+            <Icon id="User" width={20} height={20} strokeWidth={0.4} />
           </a>
           <Buttons variant="cart" />
         </div>
